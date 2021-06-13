@@ -26,14 +26,16 @@ Tìm xpath vị trí các element cần dùng trong test script
 Note
 + Khi có vị trí element trên, dựa vào bài học Selenium tiếp theo để viết test script 
 
+====================================================================================
 Bước 1:
 Textbox search: //input[@data-view-id='main_search_form_input']
 Button search: //button[@data-view-id='main_search_form_button’]
 Button ‘bỏ qua’: //button[contains(text(),'bỏ qua')]	
+
 Bước 2:
 + Ảnh sản phẩm Laptop Asus (bất kỳ do bạn muốn mua)
 //img [@src='https://salt.tikicdn.com/cache/280x280/ts/product/f7/1f/c0/46172351fd3a53fcfe1956a4b3e255a8.jpg']
-Bước 3: 
+
 Bước 3: Nhấn ảnh Sản phẩm Laptop thì hiển thị chi tiết thông tin sản phẩm 
 + Tiêu đề sản phẩm: //h1[contains(text(),'Laptop Asus ROG Strix G15 G512-IAL013T (Core i5-10300H/ 8GB DDR4 3200MHz/ 512GB SSD PCIE G3X4/ GTX 1650Ti 4GB GDDR6/ 15.6 FHD IPS, 144Hz/ Win10) - Hàng Chính Hãng')]
 + Giá bán: //span[@class='product-price__current-price']
